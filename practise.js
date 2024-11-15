@@ -19,7 +19,7 @@ const words = [
   //Function that selects a random word from the array
   function addWordToDOM(){
     //Random index
-    const randomWord = math.floor(math.random() * words.length);
+    const randomWord = Math.floor(Math.random() * words.length);
     //Select a word from the array using randomWord
     const selectedWord = words[randomWord];
     //Display selected word
