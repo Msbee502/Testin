@@ -41,16 +41,17 @@ function updateScore(){
 //     • increment time by 5 seconds 
 //     • reset the input to empty string
 
-text.addEventListener("text", function(e){
+text.addEventListener("input", function(e){
     
 
     if (input === addWordToDOM){
-    updateScore()
-    addWordToDOM() 
-    input 
+    updateScore();
+    addWordToDOM(); 
+    input = "";
     time= +5;
     }
 })
+
 
 
 
